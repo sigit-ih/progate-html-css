@@ -1,0 +1,188 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "AvenirNext-Regular", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 6rem 5rem;
+}
+
+.logo {
+  letter-spacing: 0.5rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+}
+
+.btn {
+  width: 35%;
+  display: inline-block;
+  padding: 1rem 3rem;
+  margin-top: 1.4rem;
+  font-size: 1.2rem;
+  background-color: rgb(224, 173, 4);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #2b546a;
+  color: white;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* NAV */
+nav {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+nav .container {
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.nav-left {
+  width: 20%;
+}
+
+.nav-right {
+  width: 50%;
+  padding-left: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-right a {
+  color: rgb(238, 238, 238);
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+
+header h1 {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+header span {
+  color: rgb(224, 173, 4);
+}
+
+header p {
+  font-size: 2.6rem;
+  font-weight: 100;
+  line-height: 1.8rem;
+  color: rgb(85, 85, 85);
+}
+
+header img {
+  width: 20rem;
+}
+
+/* MAIN */
+main {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+main h6 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* PROJECTS */
+.projects {
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  gap: 3rem;
+  align-items: center;  
+  justify-content: center;
+}
+
+.project {
+  flex: auto;
+  padding: 1.5%;
+}
+
+.project img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* CONTACTS */
+.contacts {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+input, textarea {
+  width: 60%;
+  margin: 1.35rem 1rem;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: black;
+}
+
+.contact {
+  margin-top: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: gray;
+}
+
+footer .container {
+  display: flex;
+  padding: 3rem 2.4rem;
+  justify-content: space-between;
+}
+
+.footer-left, .footer-right {
+  width: 20%;
+  text-align: center;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.footer-right a {
+  flex: auto;
+  color: rgb(238, 238, 238);
+}
