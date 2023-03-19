@@ -1,5 +1,5 @@
 # Latihan HTML&CSS Progate
-Website ini terbagi menjadi beberapa bagian yaitu :
+Website ini terbagi menjadi beberapa section yaitu :
 * Nav
 * Header
 * Main
